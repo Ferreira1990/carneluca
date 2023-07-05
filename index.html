@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img width="50%" src="./assets/img/logo.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Vacuno</a>         
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Cerdo</a>    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Pollo</a>    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Productos del mar</a>    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Congelados</a>    
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Otros
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Huevos</a></li>
+                      <li><a class="dropdown-item" href="#">Verduras congeladas</a></li>
+                      <li><a class="dropdown-item" href="#">Hielo</a></li>        
+                      <li><a class="dropdown-item" href="#">Carbon</a></li>                              
+                      <li><a class="dropdown-item" href="#">Hamburguesas</a></li>
+                    </ul>
+                  </li>                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+                <i class="fa-solid fa-cart-shopping carrito" style="color: #ffdd00;"></i>
+                <i class="fa-regular fa-user customuser" style="color: #000000;"></i>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+
+    <section>
+       <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><div class="promo"><img class="promoimg" src="./assets/img/promo2.jpg" class="img-fluid" alt="promo"></div></div>
+      <div class="swiper-slide"><div class="promo2"><img class="promoimg2" src="./assets/img/foto1.jpg" class="img-fluid" alt="promo"></div></div>
+      <div class="swiper-slide"><div class="promo3"><img class="promoimg3" src="./assets/img/pexels-pascal-claivaz-410648.jpg" class="img-fluid" alt="promo"></div></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>       
+    </section>
+
+
+
+
+
+    <main>
+
+        <div class="card" style="width: 18rem; cursor: pointer;">
+            <img class="card-img-top" src="./assets/img/pollo.jpg" alt="Card image cap">
+            <div class="card-body text-center">    
+              <a href="#" class="btn btn-danger">Pollo</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem; cursor: pointer;">
+            <img class="card-img-top" src="./assets/img/cerdo.jpg" alt="Card image cap">
+            <div class="card-body text-center">    
+              <a href="#"  class="btn btn-danger">Cerdo</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem; cursor: pointer;">
+            <img class="card-img-top" src="./assets/img/vacuno.jpg" alt="Card image cap">
+            <div class="card-body text-center">    
+              <a href="#" class="btn btn-danger">Vacuno</a>
+            </div>
+          </div>
+       
+    </main>
+
+    <div class="containerproducts">
+      <h4>Ofertas</h4>
+      <div class="cardproducts">
+
+        <div class="card text-center" style="width: 12rem;">
+          <img src="./assets/img/asiento.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">ASIENTO</p>
+            <h6>$2.990/KG</h6>
+            <button class="btn btn-outline-danger">Agregar al carro</button>
+          </div>
+        </div>
+
+        <div class="card text-center" style="width: 12rem;">
+          <img src="./assets/img/lomovetado.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">LOMO VETADO</p>
+            <h6>$6.990/KG</h6>
+            <button class="btn btn-outline-danger">Agregar al carro</button>
+          </div>
+        </div>
+
+        <div class="card text-center" style="width: 12rem;">
+          <img src="./assets/img/postanegra.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">POSTA NEGRA</p>
+            <h6>$9.990/KG</h6>
+            <button class="btn btn-outline-danger">Agregar al carro</button>
+          </div>
+        </div>
+
+        <div class="card text-center" style="width: 12rem;">
+          <img src="./assets/img/puntapicana.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">PUNTA PICANA</p>
+            <h6>$11.990/KG</h6>
+            <button class="btn btn-outline-danger">Agregar al carro</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="containerproducts">
+      <h4>Congelados</h4>
+      <div class="cardproducts">
+
+        <div class="card text-center" style="width: 12rem;">
+          <img src="./assets/img/SOFRITOAJO.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">SOFRITO AJO</p>
+            <h6>$990</h6>
+            <button class="btn btn-outline-danger">Agregar al carro</button>
+          </div>
+        </div>
+
+        <div class="card text-center" style="width: 12rem;">
+          <img src="./assets/img/ARVEJAS.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">ARVEJAS</p>
+            <h6>$990</h6>
+            <button class="btn btn-outline-danger">Agregar al carro</button>
+          </div>
+        </div>
+
+        <div class="card text-center" style="width: 12rem;">
+          <img src="./assets/img/HAMBURGUESA.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">LA CRIANZA</p>
+            <h6>$790/C/U</h6>
+            <button class="btn btn-outline-danger">Agregar al carro</button>
+          </div>
+        </div>
+
+        <div class="card text-center" style="width: 12rem;">
+          <img src="./assets/img/HAMBURGUESA2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">SAN JORGE</p>
+            <h6>$890C/U</h6>
+            <button class="btn btn-outline-danger">Agregar al carro</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="containerproducts">
+      <h4>Otros</h4>
+      <div class="cardproducts">
+
+        <div class="card text-center" style="width: 12rem;">
+          <img src="./assets/img/huevos.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">HUEVOS 30</p>
+            <h6>$6.490</h6>
+            <button class="btn btn-outline-danger">Agregar al carro</button>
+          </div>
+        </div>
+
+        <div class="card text-center" style="width: 12rem;">
+          <img src="./assets/img/HIELO.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">HIELO</p>
+            <h6>$1.990/2KG</h6>
+            <button class="btn btn-outline-danger">Agregar al carro</button>
+          </div>
+        </div>
+
+        <div class="card text-center" style="width: 12rem;">
+          <img src="./assets/img/CARBON.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">CARBON</p>
+            <h6>$2.990/2KG</h6>
+            <button class="btn btn-outline-danger">Agregar al carro</button>
+          </div>
+        </div>
+
+        <div class="card text-center" style="width: 12rem;">
+          <img src="./assets/img/marraqueta.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">MARRAQUETA</p>
+            <h6>$890/KG</h6>
+            <button class="btn btn-outline-danger">Agregar al carro</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer">
+      
+
+      <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+      <i class="fa-solid fa-user" style="color: #ffffff;"></i>
+      <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+      <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+      
+    </div>
+
+
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });</script>
+</body>
+</html>
